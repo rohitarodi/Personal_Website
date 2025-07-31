@@ -1,0 +1,29 @@
+/* Icon Fallbacks for Font Awesome */
+.fa-download::before { content: '⬇️'; }
+.fa-envelope::before { content: '✉️'; }
+.fa-linkedin::before { content: '💼'; }
+.fa-github::before { content: '🔗'; }
+.fa-phone::before { content: '📞'; }
+.fa-map-marker-alt::before { content: '📍'; }
+.fa-file-download::before { content: '📄'; }
+.fa-trophy::before { content: '🏆'; }
+.fa-award::before { content: '🏅'; }
+.fa-medal::before { content: '🥉'; }
+.fa-users::before { content: '👥'; }
+.fa-heart::before { content: '❤️'; }
+.fa-arrow-up::before { content: '⬆️'; }
+
+/* Ensure icons display properly */
+.fas, .fab, .fa {
+    display: inline-block;
+    font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* If Font Awesome fails to load, use emoji fallbacks */
+@supports not (font-family: "Font Awesome 6 Free") {
+    .fas::before, .fab::before, .fa::before {
+        font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+    }
+}
