@@ -1,7 +1,7 @@
-# Archived old code - not needed in deployment
+# Archived old code - not deployed
 archived/
 
-# Development files
+# Dev/config files not needed in deployment
 netlify.toml
-*.md
 CLAUDE.md
+metadata.json

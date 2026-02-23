@@ -33,7 +33,11 @@ pids
 dist/
 build/
 
-# Archived project cache and build artifacts
+# Vite cache
+.vite/
+
+# Archived project - ignore all heavy artifacts
+archived/**/node_modules/
 archived/**/.vite/
 archived/**/dist/
 archived/**/build/
