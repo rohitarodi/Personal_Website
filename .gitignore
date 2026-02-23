@@ -33,6 +33,11 @@ pids
 dist/
 build/
 
+# Archived project cache and build artifacts
+archived/**/.vite/
+archived/**/dist/
+archived/**/build/
+
 # Environment variables
 .env
 .env.local

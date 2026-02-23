@@ -1,0 +1,7 @@
+# Archived old code - not needed in deployment
+archived/
+
+# Development files
+netlify.toml
+*.md
+CLAUDE.md
