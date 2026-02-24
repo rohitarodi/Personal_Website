@@ -70,7 +70,7 @@ export const resumeData = {
     {
       company: "Vinyas Innovative Technologies",
       role: "Software Development Intern",
-      period: "2020",
+      period: "Apr 2020 – Jun 2020",
       description: "Built a Bill of Materials (BOM) price finder application with third-party API integration and a Tkinter desktop UI. Gained end-to-end SDLC experience including requirements gathering, development, testing, and technical documentation.",
       logo: "V"
     }
@@ -89,7 +89,7 @@ export const resumeData = {
       description: "Managed 13 Spring Boot microservices on Kubernetes with end-to-end CI/CD pipelines, production failure diagnosis, and automated scaling.",
       image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop&auto=format",
       tags: ["Kubernetes", "Spring Boot", "AWS", "Docker", "CI/CD"],
-      link: "#",
+      link: "https://github.com/rohitarodi",
       featured: true
     },
     {
@@ -97,7 +97,7 @@ export const resumeData = {
       description: "Award-winning Android app connecting doctors and patients in real time. Listed on Google Play Store, won ₹20,000 prize from JSS Medical College.",
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop&auto=format",
       tags: ["Android", "Firebase", "Java", "XML"],
-      link: "#",
+      link: "https://github.com/rohitarodi",
       featured: false
     },
     {
@@ -105,7 +105,7 @@ export const resumeData = {
       description: "Template-driven REST API for real-time disaster monitoring and prediction. Built with Python FastAPI and MongoDB for high-throughput async data ingestion.",
       image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&h=600&fit=crop&auto=format",
       tags: ["Python", "FastAPI", "MongoDB", "Async"],
-      link: "#",
+      link: "https://github.com/rohitarodi",
       featured: false
     },
     {
@@ -113,7 +113,7 @@ export const resumeData = {
       description: "Android app for optimized travel routes using Google Distance API. Won 3rd place at MHRD Ideathon with 97% positive user feedback.",
       image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=600&fit=crop&auto=format",
       tags: ["Android", "Google APIs", "Firebase", "Cloud"],
-      link: "#",
+      link: "https://github.com/rohitarodi",
       featured: false
     },
     {
@@ -121,7 +121,7 @@ export const resumeData = {
       description: "Data assimilation system using particle filtering in DEVSJAVA for joint state-parameter estimation with RMSE-based statistical validation.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop&auto=format",
       tags: ["DEVSJAVA", "Data Assimilation", "Python", "Statistics"],
-      link: "#",
+      link: "https://github.com/rohitarodi",
       featured: false
     },
     {
@@ -129,7 +129,7 @@ export const resumeData = {
       description: "ML research applying Neural Networks, SMOTE oversampling, and Random Forest classification for COVID-19 feature detection and predictive modeling.",
       image: "https://images.unsplash.com/photo-1584118624012-df056829fbd0?w=800&h=600&fit=crop&auto=format",
       tags: ["Machine Learning", "SMOTE", "Random Forest", "Python"],
-      link: "#",
+      link: "https://github.com/rohitarodi",
       featured: false
     }
   ]

@@ -15,8 +15,10 @@ export const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {resumeData.projects.map((project, index) => (
             <FadeIn key={index} delay={index * 0.1} className={project.featured ? "md:col-span-2" : ""}>
-              <a 
+              <a
                 href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group block relative overflow-hidden rounded-3xl bg-zinc-900 border border-white/5 aspect-[4/3] md:aspect-[16/9]"
               >
                 <div className="absolute inset-0">

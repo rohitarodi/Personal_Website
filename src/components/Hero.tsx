@@ -3,6 +3,7 @@ import { useRef } from 'react';
 import { resumeData } from '../data/resume';
 import { FadeIn } from './Animations';
 import { ArrowDown } from 'lucide-react';
+import { EmailButton } from './EmailButton';
 
 export const Hero = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -42,16 +43,25 @@ export const Hero = () => {
 
             <FadeIn delay={0.4}>
               <div className="flex justify-center md:justify-start gap-4">
-                {resumeData.personalInfo.social.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.url}
-                    className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors backdrop-blur-md border border-white/5"
-                    aria-label={item.name}
-                  >
-                    <item.icon size={20} />
-                  </a>
-                ))}
+                {resumeData.personalInfo.social.map((item) => {
+                  if (item.name === 'Email') {
+                    return (
+                      <EmailButton key={item.name} variant="icon" icon={item.icon} align="left" />
+                    );
+                  }
+                  return (
+                    <a
+                      key={item.name}
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors backdrop-blur-md border border-white/5"
+                      aria-label={item.name}
+                    >
+                      <item.icon size={20} />
+                    </a>
+                  );
+                })}
               </div>
             </FadeIn>
           </div>
