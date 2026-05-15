@@ -85,51 +85,107 @@ export const resumeData = {
   ],
   projects: [
     {
-      title: "ESSMS – Enterprise Service Suite",
-      description: "Managed 13 Spring Boot microservices on Kubernetes with end-to-end CI/CD pipelines, production failure diagnosis, and automated scaling.",
-      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop&auto=format",
-      tags: ["Kubernetes", "Spring Boot", "AWS", "Docker", "CI/CD"],
-      link: "https://github.com/rohitarodi",
+      title: "Sentinel-AI",
+      description: "Disaster intelligence platform with live sensor ingestion, physics-based risk classification (flood, wildfire, earthquake), and Google Gemini AI summaries. Deploys to Azure via GitHub Actions CI/CD with an interactive choropleth map.",
+      image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200&h=800&fit=crop&auto=format",
+      tags: ["TypeScript", "React", "FastAPI", "Azure", "Docker", "RabbitMQ", "Gemini AI"],
+      link: "https://github.com/rohitarodi/sentinal-ai",
       featured: true
     },
     {
-      title: "Diaguru – Medical Communication Platform",
-      description: "Award-winning Android app connecting doctors and patients in real time. Listed on Google Play Store, won ₹20,000 prize from JSS Medical College.",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop&auto=format",
-      tags: ["Android", "Firebase", "Java", "XML"],
-      link: "https://github.com/rohitarodi",
+      title: "H1B Job Matcher",
+      description: "Matches H1B-sponsoring companies from USCIS data with live new-grad job listings. Tracks applications via Gmail integration and visualizes the hiring funnel with an interactive D3 pipeline dashboard.",
+      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop&auto=format",
+      tags: ["Python", "Flask", "Docker", "D3.js", "USCIS Data", "Gmail API"],
+      link: "https://github.com/rohitarodi/h1b-job-matcher",
       featured: false
     },
     {
-      title: "Disaster Management API",
-      description: "Template-driven REST API for real-time disaster monitoring and prediction. Built with Python FastAPI and MongoDB for high-throughput async data ingestion.",
-      image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&h=600&fit=crop&auto=format",
-      tags: ["Python", "FastAPI", "MongoDB", "Async"],
-      link: "https://github.com/rohitarodi",
+      title: "Self-Hosted AI Stack",
+      description: "Privacy-first home lab bundling an AI assistant (OpenClaw), Obsidian note-sync, WireGuard VPN, and Nginx proxy — all brought up with a single Docker Compose command. Your data stays on your server.",
+      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop&auto=format",
+      tags: ["Docker", "WireGuard", "Nginx", "Obsidian", "Shell", "Self-Hosted"],
+      link: "https://github.com/rohitarodi/selfhosted-ai",
       featured: false
     },
     {
-      title: "Route IT: Travel Recommendation System",
-      description: "Android app for optimized travel routes using Google Distance API. Won 3rd place at MHRD Ideathon with 97% positive user feedback.",
-      image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=600&fit=crop&auto=format",
-      tags: ["Android", "Google APIs", "Firebase", "Cloud"],
-      link: "https://github.com/rohitarodi",
-      featured: false
-    },
-    {
-      title: "Modeling & Simulation – Particle Filtering",
-      description: "Data assimilation system using particle filtering in DEVSJAVA for joint state-parameter estimation with RMSE-based statistical validation.",
+      title: "MNIST Federated Learning",
+      description: "Federated learning system for MNIST digit classification with Byzantine attack detection via cosine similarity analysis. Malicious clients are isolated while maintaining ~98% accuracy across distributed nodes.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop&auto=format",
-      tags: ["DEVSJAVA", "Data Assimilation", "Python", "Statistics"],
-      link: "https://github.com/rohitarodi",
+      tags: ["Python", "PyTorch", "Federated Learning", "ML Security", "CNN"],
+      link: "https://github.com/rohitarodi/CSC8370_Federated_learning_Project",
       featured: false
     },
     {
-      title: "COVID-19 Feature Detection via SMOTE",
-      description: "ML research applying Neural Networks, SMOTE oversampling, and Random Forest classification for COVID-19 feature detection and predictive modeling.",
-      image: "https://images.unsplash.com/photo-1584118624012-df056829fbd0?w=800&h=600&fit=crop&auto=format",
-      tags: ["Machine Learning", "SMOTE", "Random Forest", "Python"],
-      link: "https://github.com/rohitarodi",
+      title: "Secure File Storage App",
+      description: "Hybrid AES + RSA encrypted file storage backed by Azure Key Vault and Blob Storage. Streamlit frontend, Flask backend, and Docker packaging for local or cloud deployment.",
+      image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=600&fit=crop&auto=format",
+      tags: ["Python", "Azure", "AES/RSA", "Streamlit", "Flask", "Docker"],
+      link: "https://github.com/rohitarodi/SecureFileStorageApp",
+      featured: false
+    },
+    {
+      title: "pyNas – Personal NAS",
+      description: "Self-hosted photo server with AI face detection, EXIF metadata extraction, GPS map integration, and drag-and-drop uploads. Full-stack FastAPI + React 18 with automatic thumbnail generation.",
+      image: "https://images.unsplash.com/photo-1588702547919-26089e690ecc?w=800&h=600&fit=crop&auto=format",
+      tags: ["FastAPI", "React", "OpenCV", "Python", "SQLAlchemy"],
+      link: "https://github.com/rohitarodi/pyNas",
+      featured: false
+    },
+    {
+      title: "Personal Portfolio Website",
+      description: "Developer portfolio built with React 19, TypeScript, Tailwind CSS 4, and Framer Motion. Dark glass-morphism design with smooth scroll animations, deployed on Vercel.",
+      image: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&h=600&fit=crop&auto=format",
+      tags: ["TypeScript", "React 19", "Tailwind CSS", "Vite", "Vercel"],
+      link: "https://github.com/rohitarodi/Personal_Website",
+      featured: false
+    },
+    {
+      title: "My Lofi",
+      description: "Browser-based lofi music player with a minimal atmospheric interface. JavaScript-powered with curated playlists designed for focused work and study sessions.",
+      image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&h=600&fit=crop&auto=format",
+      tags: ["JavaScript", "HTML", "CSS", "Music Player"],
+      link: "https://github.com/rohitarodi/My_Lofi",
+      featured: false
+    },
+    {
+      title: "Work Tracker",
+      description: "LaTeX-based personal work journal for structured logging of tasks, progress, and notes with clean typesetting and version-controlled history.",
+      image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop&auto=format",
+      tags: ["LaTeX", "TeX", "Productivity", "Documentation"],
+      link: "https://github.com/rohitarodi/Work_Tracker",
+      featured: false
+    },
+    {
+      title: "DevOps Shell Scripts",
+      description: "Collection of DevOps and system administration shell scripts covering automation, monitoring, and infrastructure tasks — extended from the devops-by-examples project.",
+      image: "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&h=600&fit=crop&auto=format",
+      tags: ["Shell", "Bash", "DevOps", "Automation", "Linux"],
+      link: "https://github.com/rohitarodi/Shell",
+      featured: false
+    },
+    {
+      title: "NeetCode DSA Submissions",
+      description: "LeetCode / NeetCode problem submissions organized by topic. Python solutions spanning arrays, binary search, trees, graphs, dynamic programming, and more.",
+      image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800&h=600&fit=crop&auto=format",
+      tags: ["Python", "Algorithms", "Data Structures", "LeetCode"],
+      link: "https://github.com/rohitarodi/neetcode-submissions-b3wl7gpi",
+      featured: false
+    },
+    {
+      title: "is-a.dev Subdomain",
+      description: "Registered a free developer subdomain via the is-a.dev open-source DNS registry — a community project enabling developers to host personal sites under the is-a.dev domain.",
+      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop&auto=format",
+      tags: ["DNS", "Open Source", "Community", "Web"],
+      link: "https://github.com/rohitarodi/register",
+      featured: false
+    },
+    {
+      title: "GitHub Profile README",
+      description: "Animated GitHub profile README showcasing skills, projects, and contribution stats with dynamic badges and visual graphs.",
+      image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&h=600&fit=crop&auto=format",
+      tags: ["Markdown", "GitHub", "Profile", "Badges"],
+      link: "https://github.com/rohitarodi/rohitarodi",
       featured: false
     }
   ]
