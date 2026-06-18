@@ -1,0 +1,381 @@
+- main [ref=e3]:
+  - navigation [ref=e5]:
+    - link "Home" [ref=e6] [cursor=pointer]:
+      - /url: "#home"
+      - img [ref=e7]
+      - generic: Home
+    - link "About" [ref=e10] [cursor=pointer]:
+      - /url: "#about"
+      - img [ref=e11]
+      - generic: About
+    - link "Education" [ref=e14] [cursor=pointer]:
+      - /url: "#education"
+      - img [ref=e15]
+      - generic: Education
+    - link "Work" [ref=e18] [cursor=pointer]:
+      - /url: "#experience"
+      - img [ref=e19]
+      - generic: Work
+    - link "Projects" [ref=e22] [cursor=pointer]:
+      - /url: "#projects"
+      - img [ref=e23]
+      - generic: Projects
+    - link "Contact" [ref=e25] [cursor=pointer]:
+      - /url: "#contact"
+      - img [ref=e26]
+      - generic: Contact
+  - generic [ref=e30]:
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - paragraph [ref=e37]: Atlanta, GA
+          - heading "Rohit Arodi Ramachandra" [level=1] [ref=e38]
+        - paragraph [ref=e40]: Architecting scalable cloud solutions and automating infrastructure.
+        - generic [ref=e42]:
+          - link "LinkedIn" [ref=e43] [cursor=pointer]:
+            - /url: https://linkedin.com/in/arodirohit
+            - img [ref=e44]
+          - link "GitHub" [ref=e48] [cursor=pointer]:
+            - /url: https://github.com/rohitarodi
+            - img [ref=e49]
+          - button "Email" [ref=e53]:
+            - img [ref=e54]
+      - img "Rohit Arodi Ramachandra" [ref=e60]
+    - img [ref=e62]
+  - generic [ref=e66]:
+    - heading "About Me" [level=2] [ref=e68]
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - heading "Who I Am" [level=3] [ref=e71]
+        - paragraph [ref=e72]: "Cloud & Software Engineer with 4+ years of experience specializing in DevOps, AWS, Azure, and Kubernetes. Pursuing MS in Computer Science (GPA: 3.72) at Georgia State University. Passionate about designing scalable multi-tenant architectures, building ML pipelines for predictive maintenance, and automating secure CI/CD pipelines for enterprise systems."
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - generic [ref=e76]: 4+
+          - generic [ref=e77]: Years Exp.
+        - generic [ref=e78]:
+          - generic [ref=e79]: 13+
+          - generic [ref=e80]: Microservices
+        - generic [ref=e81]:
+          - generic [ref=e82]: "3"
+          - generic [ref=e83]: Cloud Platforms
+        - generic [ref=e84]:
+          - generic [ref=e85]: "3.72"
+          - generic [ref=e86]: MS GPA
+      - generic [ref=e87]:
+        - img [ref=e89]
+        - generic [ref=e91]:
+          - generic [ref=e92]: Cloud & DevOps
+          - generic [ref=e93]: AWS, Azure, GCP, Kubernetes
+      - generic [ref=e94]:
+        - img [ref=e96]
+        - generic [ref=e99]:
+          - generic [ref=e100]: Backend Dev
+          - generic [ref=e101]: Spring Boot, Flask, FastAPI
+      - generic [ref=e102]:
+        - img [ref=e104]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Infrastructure
+          - generic [ref=e108]: Terraform, Docker, Ansible
+      - generic [ref=e109]:
+        - img [ref=e111]
+        - generic [ref=e115]:
+          - generic [ref=e116]: Data & ML
+          - generic [ref=e117]: SQL, NoSQL, Spark, PyTorch
+      - generic [ref=e118]:
+        - img [ref=e120]
+        - generic [ref=e123]:
+          - generic [ref=e124]: Languages
+          - generic [ref=e125]: Python, Java, JavaScript, Shell
+      - generic [ref=e126]:
+        - img [ref=e128]
+        - generic [ref=e131]:
+          - generic [ref=e132]: Big Data
+          - generic [ref=e133]: Hadoop, MapReduce, Power BI
+  - generic [ref=e136]:
+    - heading "Education" [level=2] [ref=e138]
+    - generic [ref=e139]:
+      - generic [ref=e141]:
+        - generic [ref=e142]:
+          - img [ref=e144]
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - heading "Georgia State University" [level=3] [ref=e150]
+              - paragraph [ref=e151]: Master of Science in Computer Science
+            - generic [ref=e152]:
+              - paragraph [ref=e153]: Aug 2023 – Dec 2025
+              - paragraph [ref=e154]: "GPA: 3.72 / 4.0"
+        - generic [ref=e155]:
+          - paragraph [ref=e156]: Key Coursework
+          - generic [ref=e157]:
+            - generic [ref=e158]: Big Data Programming
+            - generic [ref=e159]: Data Science
+            - generic [ref=e160]: Cloud Computing
+            - generic [ref=e161]: Advanced Algorithms
+            - generic [ref=e162]: Cryptography
+            - generic [ref=e163]: Advanced Data Security
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - img [ref=e168]
+          - generic [ref=e172]:
+            - generic [ref=e173]:
+              - heading "JSS Science and Technology University" [level=3] [ref=e174]
+              - paragraph [ref=e175]: Bachelor of Science in Computer Science
+            - generic [ref=e176]:
+              - paragraph [ref=e177]: Aug 2017 – May 2021
+              - paragraph [ref=e178]: "GPA: 8.84 / 10"
+        - generic [ref=e179]:
+          - paragraph [ref=e180]: Key Coursework
+          - generic [ref=e181]:
+            - generic [ref=e182]: Database Management Systems
+            - generic [ref=e183]: Software Engineering
+            - generic [ref=e184]: Distributed Computing
+            - generic [ref=e185]: Algorithm Design
+  - generic [ref=e188]:
+    - heading "Experience" [level=2] [ref=e190]
+    - generic [ref=e191]:
+      - generic [ref=e195]:
+        - generic [ref=e197]:
+          - generic [ref=e198]:
+            - generic [ref=e200]: B
+            - generic [ref=e201]:
+              - heading "Bosch" [level=3] [ref=e202]
+              - paragraph [ref=e203]: Cloud and Data Intern
+          - paragraph [ref=e204]: Designed a scalable multi-tenant deployment framework using Terraform and Azure DevOps. Led the transition to a SaaS-ready architecture by automating secure CI/CD pipelines, significantly improving onboarding reliability for the BDTI platform.
+        - generic [ref=e208]: Jun 2025 – Oct 2025
+      - generic [ref=e212]:
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - generic [ref=e217]: G
+            - generic [ref=e218]:
+              - heading "Georgia State University – TRiO SSS" [level=3] [ref=e219]
+              - paragraph [ref=e220]: Graduate Administrative Assistant
+          - paragraph [ref=e221]: Provide technical guidance and develop CS workshop materials for underrepresented students. Manage social media outreach, mentor students, and organize academic events to support student success and retention.
+        - generic [ref=e225]: Sep 2024 – Present
+      - generic [ref=e229]:
+        - generic [ref=e231]:
+          - generic [ref=e232]:
+            - generic [ref=e234]: B
+            - generic [ref=e235]:
+              - heading "Bosch Global Software Technology" [level=3] [ref=e236]
+              - paragraph [ref=e237]: Senior Software Developer
+          - paragraph [ref=e238]: Architected enterprise cloud solutions on Azure/AWS for Digital Twin platforms. Built REST APIs with Flask handling 1000+ concurrent requests at 99.9% uptime. Developed ML pipelines for predictive maintenance and RUL estimation of industrial equipment.
+        - generic [ref=e242]: Aug 2021 – Jul 2024
+      - generic [ref=e246]:
+        - generic [ref=e248]:
+          - generic [ref=e249]:
+            - generic [ref=e251]: B
+            - generic [ref=e252]:
+              - heading "Bosch" [level=3] [ref=e253]
+              - paragraph [ref=e254]: Software Development Intern
+          - paragraph [ref=e255]: Applied ML techniques including Extreme Learning Machines (ELM) and Subtractive Clustering for Remaining Useful Life (RUL) prediction models. Focused on fast training algorithms and pattern identification for industrial equipment health monitoring.
+        - generic [ref=e259]: Apr 2021 – Jul 2021
+      - generic [ref=e263]:
+        - generic [ref=e265]:
+          - generic [ref=e266]:
+            - generic [ref=e268]: V
+            - generic [ref=e269]:
+              - heading "Vinyas Innovative Technologies" [level=3] [ref=e270]
+              - paragraph [ref=e271]: Software Development Intern
+          - paragraph [ref=e272]: Built a Bill of Materials (BOM) price finder application with third-party API integration and a Tkinter desktop UI. Gained end-to-end SDLC experience including requirements gathering, development, testing, and technical documentation.
+        - generic [ref=e276]: Apr 2020 – Jun 2020
+  - generic [ref=e279]:
+    - heading "Selected Work" [level=2] [ref=e281]
+    - generic [ref=e282]:
+      - link "Sentinel-AI Sentinel-AI Disaster intelligence platform with live sensor ingestion, physics-based risk classification (flood, wildfire, earthquake), and Google Gemini AI summaries. Deploys to Azure via GitHub Actions CI/CD with an interactive choropleth map. TypeScript React FastAPI Azure Docker RabbitMQ Gemini AI" [ref=e284] [cursor=pointer]:
+        - /url: https://github.com/rohitarodi/sentinal-ai
+        - img "Sentinel-AI" [ref=e286]
+        - generic [ref=e289]:
+          - generic [ref=e290]:
+            - heading "Sentinel-AI" [level=3] [ref=e291]
+            - paragraph [ref=e292]: Disaster intelligence platform with live sensor ingestion, physics-based risk classification (flood, wildfire, earthquake), and Google Gemini AI summaries. Deploys to Azure via GitHub Actions CI/CD with an interactive choropleth map.
+            - generic [ref=e293]:
+              - generic [ref=e294]: TypeScript
+              - generic [ref=e295]: React
+              - generic [ref=e296]: FastAPI
+              - generic [ref=e297]: Azure
+              - generic [ref=e298]: Docker
+              - generic [ref=e299]: RabbitMQ
+              - generic [ref=e300]: Gemini AI
+          - img [ref=e302]
+      - link "H1B Job Matcher H1B Job Matcher Matches H1B-sponsoring companies from USCIS data with live new-grad job listings. Tracks applications via Gmail integration and visualizes the hiring funnel with an interactive D3 pipeline dashboard. Python Flask Docker D3.js USCIS Data Gmail API" [ref=e306] [cursor=pointer]:
+        - /url: https://github.com/rohitarodi/h1b-job-matcher
+        - img "H1B Job Matcher" [ref=e308]
+        - generic [ref=e311]:
+          - generic [ref=e312]:
+            - heading "H1B Job Matcher" [level=3] [ref=e313]
+            - paragraph [ref=e314]: Matches H1B-sponsoring companies from USCIS data with live new-grad job listings. Tracks applications via Gmail integration and visualizes the hiring funnel with an interactive D3 pipeline dashboard.
+            - generic [ref=e315]:
+              - generic [ref=e316]: Python
+              - generic [ref=e317]: Flask
+              - generic [ref=e318]: Docker
+              - generic [ref=e319]: D3.js
+              - generic [ref=e320]: USCIS Data
+              - generic [ref=e321]: Gmail API
+          - img [ref=e323]
+      - link "Self-Hosted AI Stack Self-Hosted AI Stack Privacy-first home lab bundling an AI assistant (OpenClaw), Obsidian note-sync, WireGuard VPN, and Nginx proxy — all brought up with a single Docker Compose command. Your data stays on your server. Docker WireGuard Nginx Obsidian Shell Self-Hosted" [ref=e327] [cursor=pointer]:
+        - /url: https://github.com/rohitarodi/selfhosted-ai
+        - img "Self-Hosted AI Stack" [ref=e329]
+        - generic [ref=e332]:
+          - generic [ref=e333]:
+            - heading "Self-Hosted AI Stack" [level=3] [ref=e334]
+            - paragraph [ref=e335]: Privacy-first home lab bundling an AI assistant (OpenClaw), Obsidian note-sync, WireGuard VPN, and Nginx proxy — all brought up with a single Docker Compose command. Your data stays on your server.
+            - generic [ref=e336]:
+              - generic [ref=e337]: Docker
+              - generic [ref=e338]: WireGuard
+              - generic [ref=e339]: Nginx
+              - generic [ref=e340]: Obsidian
+              - generic [ref=e341]: Shell
+              - generic [ref=e342]: Self-Hosted
+          - img [ref=e344]
+      - link "MNIST Federated Learning MNIST Federated Learning Federated learning system for MNIST digit classification with Byzantine attack detection via cosine similarity analysis. Malicious clients are isolated while maintaining ~98% accuracy across distributed nodes. Python PyTorch Federated Learning ML Security CNN" [ref=e348] [cursor=pointer]:
+        - /url: https://github.com/rohitarodi/CSC8370_Federated_learning_Project
+        - img "MNIST Federated Learning" [ref=e350]
+        - generic [ref=e353]:
+          - generic [ref=e354]:
+            - heading "MNIST Federated Learning" [level=3] [ref=e355]
+            - paragraph [ref=e356]: Federated learning system for MNIST digit classification with Byzantine attack detection via cosine similarity analysis. Malicious clients are isolated while maintaining ~98% accuracy across distributed nodes.
+            - generic [ref=e357]:
+              - generic [ref=e358]: Python
+              - generic [ref=e359]: PyTorch
+              - generic [ref=e360]: Federated Learning
+              - generic [ref=e361]: ML Security
+              - generic [ref=e362]: CNN
+          - img [ref=e364]
+      - link "Secure File Storage App Secure File Storage App Hybrid AES + RSA encrypted file storage backed by Azure Key Vault and Blob Storage. Streamlit frontend, Flask backend, and Docker packaging for local or cloud deployment. Python Azure AES/RSA Streamlit Flask Docker" [ref=e368] [cursor=pointer]:
+        - /url: https://github.com/rohitarodi/SecureFileStorageApp
+        - img "Secure File Storage App" [ref=e370]
+        - generic [ref=e373]:
+          - generic [ref=e374]:
+            - heading "Secure File Storage App" [level=3] [ref=e375]
+            - paragraph [ref=e376]: Hybrid AES + RSA encrypted file storage backed by Azure Key Vault and Blob Storage. Streamlit frontend, Flask backend, and Docker packaging for local or cloud deployment.
+            - generic [ref=e377]:
+              - generic [ref=e378]: Python
+              - generic [ref=e379]: Azure
+              - generic [ref=e380]: AES/RSA
+              - generic [ref=e381]: Streamlit
+              - generic [ref=e382]: Flask
+              - generic [ref=e383]: Docker
+          - img [ref=e385]
+      - link "pyNas – Personal NAS pyNas – Personal NAS Self-hosted photo server with AI face detection, EXIF metadata extraction, GPS map integration, and drag-and-drop uploads. Full-stack FastAPI + React 18 with automatic thumbnail generation. FastAPI React OpenCV Python SQLAlchemy" [ref=e389] [cursor=pointer]:
+        - /url: https://github.com/rohitarodi/pyNas
+        - img "pyNas – Personal NAS" [ref=e391]
+        - generic [ref=e394]:
+          - generic [ref=e395]:
+            - heading "pyNas – Personal NAS" [level=3] [ref=e396]
+            - paragraph [ref=e397]: Self-hosted photo server with AI face detection, EXIF metadata extraction, GPS map integration, and drag-and-drop uploads. Full-stack FastAPI + React 18 with automatic thumbnail generation.
+            - generic [ref=e398]:
+              - generic [ref=e399]: FastAPI
+              - generic [ref=e400]: React
+              - generic [ref=e401]: OpenCV
+              - generic [ref=e402]: Python
+              - generic [ref=e403]: SQLAlchemy
+          - img [ref=e405]
+      - link "Personal Portfolio Website Personal Portfolio Website Developer portfolio built with React 19, TypeScript, Tailwind CSS 4, and Framer Motion. Dark glass-morphism design with smooth scroll animations, deployed on Vercel. TypeScript React 19 Tailwind CSS Vite Vercel" [ref=e409] [cursor=pointer]:
+        - /url: https://github.com/rohitarodi/Personal_Website
+        - img "Personal Portfolio Website" [ref=e411]
+        - generic [ref=e414]:
+          - generic [ref=e415]:
+            - heading "Personal Portfolio Website" [level=3] [ref=e416]
+            - paragraph [ref=e417]: Developer portfolio built with React 19, TypeScript, Tailwind CSS 4, and Framer Motion. Dark glass-morphism design with smooth scroll animations, deployed on Vercel.
+            - generic [ref=e418]:
+              - generic [ref=e419]: TypeScript
+              - generic [ref=e420]: React 19
+              - generic [ref=e421]: Tailwind CSS
+              - generic [ref=e422]: Vite
+              - generic [ref=e423]: Vercel
+          - img [ref=e425]
+      - link "My Lofi My Lofi Browser-based lofi music player with a minimal atmospheric interface. JavaScript-powered with curated playlists designed for focused work and study sessions. JavaScript HTML CSS Music Player" [ref=e429] [cursor=pointer]:
+        - /url: https://github.com/rohitarodi/My_Lofi
+        - img "My Lofi" [ref=e431]
+        - generic [ref=e434]:
+          - generic [ref=e435]:
+            - heading "My Lofi" [level=3] [ref=e436]
+            - paragraph [ref=e437]: Browser-based lofi music player with a minimal atmospheric interface. JavaScript-powered with curated playlists designed for focused work and study sessions.
+            - generic [ref=e438]:
+              - generic [ref=e439]: JavaScript
+              - generic [ref=e440]: HTML
+              - generic [ref=e441]: CSS
+              - generic [ref=e442]: Music Player
+          - img [ref=e444]
+      - link "Work Tracker Work Tracker LaTeX-based personal work journal for structured logging of tasks, progress, and notes with clean typesetting and version-controlled history. LaTeX TeX Productivity Documentation" [ref=e448] [cursor=pointer]:
+        - /url: https://github.com/rohitarodi/Work_Tracker
+        - img "Work Tracker" [ref=e450]
+        - generic [ref=e453]:
+          - generic [ref=e454]:
+            - heading "Work Tracker" [level=3] [ref=e455]
+            - paragraph [ref=e456]: LaTeX-based personal work journal for structured logging of tasks, progress, and notes with clean typesetting and version-controlled history.
+            - generic [ref=e457]:
+              - generic [ref=e458]: LaTeX
+              - generic [ref=e459]: TeX
+              - generic [ref=e460]: Productivity
+              - generic [ref=e461]: Documentation
+          - img [ref=e463]
+      - link "DevOps Shell Scripts DevOps Shell Scripts Collection of DevOps and system administration shell scripts covering automation, monitoring, and infrastructure tasks — extended from the devops-by-examples project. Shell Bash DevOps Automation Linux" [ref=e467] [cursor=pointer]:
+        - /url: https://github.com/rohitarodi/Shell
+        - img "DevOps Shell Scripts" [ref=e469]
+        - generic [ref=e472]:
+          - generic [ref=e473]:
+            - heading "DevOps Shell Scripts" [level=3] [ref=e474]
+            - paragraph [ref=e475]: Collection of DevOps and system administration shell scripts covering automation, monitoring, and infrastructure tasks — extended from the devops-by-examples project.
+            - generic [ref=e476]:
+              - generic [ref=e477]: Shell
+              - generic [ref=e478]: Bash
+              - generic [ref=e479]: DevOps
+              - generic [ref=e480]: Automation
+              - generic [ref=e481]: Linux
+          - img [ref=e483]
+      - link "NeetCode DSA Submissions NeetCode DSA Submissions LeetCode / NeetCode problem submissions organized by topic. Python solutions spanning arrays, binary search, trees, graphs, dynamic programming, and more. Python Algorithms Data Structures LeetCode" [ref=e487] [cursor=pointer]:
+        - /url: https://github.com/rohitarodi/neetcode-submissions-b3wl7gpi
+        - img "NeetCode DSA Submissions" [ref=e489]
+        - generic [ref=e492]:
+          - generic [ref=e493]:
+            - heading "NeetCode DSA Submissions" [level=3] [ref=e494]
+            - paragraph [ref=e495]: LeetCode / NeetCode problem submissions organized by topic. Python solutions spanning arrays, binary search, trees, graphs, dynamic programming, and more.
+            - generic [ref=e496]:
+              - generic [ref=e497]: Python
+              - generic [ref=e498]: Algorithms
+              - generic [ref=e499]: Data Structures
+              - generic [ref=e500]: LeetCode
+          - img [ref=e502]
+      - link "is-a.dev Subdomain is-a.dev Subdomain Registered a free developer subdomain via the is-a.dev open-source DNS registry — a community project enabling developers to host personal sites under the is-a.dev domain. DNS Open Source Community Web" [ref=e506] [cursor=pointer]:
+        - /url: https://github.com/rohitarodi/register
+        - img "is-a.dev Subdomain" [ref=e508]
+        - generic [ref=e511]:
+          - generic [ref=e512]:
+            - heading "is-a.dev Subdomain" [level=3] [ref=e513]
+            - paragraph [ref=e514]: Registered a free developer subdomain via the is-a.dev open-source DNS registry — a community project enabling developers to host personal sites under the is-a.dev domain.
+            - generic [ref=e515]:
+              - generic [ref=e516]: DNS
+              - generic [ref=e517]: Open Source
+              - generic [ref=e518]: Community
+              - generic [ref=e519]: Web
+          - img [ref=e521]
+      - link "GitHub Profile README GitHub Profile README Animated GitHub profile README showcasing skills, projects, and contribution stats with dynamic badges and visual graphs. Markdown GitHub Profile Badges" [ref=e525] [cursor=pointer]:
+        - /url: https://github.com/rohitarodi/rohitarodi
+        - img "GitHub Profile README" [ref=e527]
+        - generic [ref=e530]:
+          - generic [ref=e531]:
+            - heading "GitHub Profile README" [level=3] [ref=e532]
+            - paragraph [ref=e533]: Animated GitHub profile README showcasing skills, projects, and contribution stats with dynamic badges and visual graphs.
+            - generic [ref=e534]:
+              - generic [ref=e535]: Markdown
+              - generic [ref=e536]: GitHub
+              - generic [ref=e537]: Profile
+              - generic [ref=e538]: Badges
+          - img [ref=e540]
+  - generic [ref=e544]:
+    - heading "Let's build something extraordinary." [level=2] [ref=e546]:
+      - text: Let's build something
+      - text: extraordinary.
+    - paragraph [ref=e548]: I'm currently available for freelance projects and open to full-time opportunities.
+    - button "Say Hello" [ref=e550]:
+      - text: Say Hello
+      - img [ref=e551]
+  - generic [ref=e554]:
+    - generic [ref=e555]: © 2026 Rohit Arodi Ramachandra. All rights reserved.
+    - generic [ref=e556]:
+      - link "LinkedIn" [ref=e557] [cursor=pointer]:
+        - /url: https://linkedin.com/in/arodirohit
+      - link "GitHub" [ref=e558] [cursor=pointer]:
+        - /url: https://github.com/rohitarodi
+      - button "Email" [ref=e560]
